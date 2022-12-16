@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yhs-coder.github.io/</loc>
+    <lastmod>2022-12-14T10:02:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yhs-coder.github.io/post/notes/</loc>
+    <lastmod>2022-12-14T10:02:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yhs-coder.github.io/post/</loc>
+    <lastmod>2022-12-14T10:02:37+08:00</lastmod>
+  </url><url>
+    <loc>https://yhs-coder.github.io/post/test/</loc>
+    <lastmod>2022-12-13T15:50:03+08:00</lastmod>
+  </url><url>
+    <loc>https://yhs-coder.github.io/post/blog/</loc>
+    <lastmod>2022-12-08T00:14:28+08:00</lastmod>
+  </url><url>
+    <loc>https://yhs-coder.github.io/categories/</loc>
+  </url><url>
+    <loc>https://yhs-coder.github.io/tags/</loc>
+  </url>
+</urlset>
