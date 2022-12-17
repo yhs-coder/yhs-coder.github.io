@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hugo #  1. 安装Hugo #  看看能不能显示？？？  ubantu系统 下载Hugo官方下载  # 下载压缩包 wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz # 解压 tar -xzvf hugo_0.81.0_Linux-64bit.tar.gz sudo cp ./hugo /usr/local/bin 检查是否安装成功  hugo version 创建blog站点  hugo new site myblog #myblog是项目名 myblog下的目录如下  myblog ├── archetypes │ └── default.md ├── assets ├── config.toml # 博客站点的配置文件 ├── content	# 博客文章所在的目录	 ├── data ├── layouts	# 网站布局 ├── public	├── static	# 一些静态内容 └── themes	# 博客主题 安装主题   官方主题下载：hugo主题">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="My first blog" />
+<meta property="og:description" content="Hugo #  1. 安装Hugo #  看看能不能显示？？？  ubantu系统 下载Hugo官方下载  # 下载压缩包 wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz # 解压 tar -xzvf hugo_0.81.0_Linux-64bit.tar.gz sudo cp ./hugo /usr/local/bin 检查是否安装成功  hugo version 创建blog站点  hugo new site myblog #myblog是项目名 myblog下的目录如下  myblog ├── archetypes │ └── default.md ├── assets ├── config.toml # 博客站点的配置文件 ├── content	# 博客文章所在的目录	 ├── data ├── layouts	# 网站布局 ├── public	├── static	# 一些静态内容 └── themes	# 博客主题 安装主题   官方主题下载：hugo主题" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yhs-coder.github.io/post/blog/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-12-08T00:14:28+08:00" />
+<meta property="article:modified_time" content="2022-12-08T00:14:28+08:00" />
+
+<title>My first blog | My New Hugo Site</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.a82d7e77ceb134d151c4d7e381eeb30623fbd5a524d58c584d8716ecec0205bd.css" integrity="sha256-qC1&#43;d86xNNFRxNfjge6zBiP71aUk1YxYTYcW7OwCBb0=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.0b8b2eabeb4daf5c53642dcb946947c55d4b05f908d37f448aa8f833258e7565.js" integrity="sha256-C4suq&#43;tNr1xTZC3LlGlHxV1LBfkI039Eiqj4MyWOdWU=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Posts</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/post/notes/" class="">Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/post/test/" class="">My First Post</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/post/blog/" class="active">My first blog</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>My first blog</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="hugo">
+  Hugo
+  <a class="anchor" href="#hugo">#</a>
+</h1>
+<h1 id="1-安装hugo">
+  1. 安装Hugo
+  <a class="anchor" href="#1-%e5%ae%89%e8%a3%85hugo">#</a>
+</h1>
+<p>看看能不能显示？？？
+<!-- raw HTML omitted -->
+<img src="https://gitee.com/yhs_code/cloud-map-library/raw/master/img/image-20221211154752641.png" alt="chat" /></p>
+<ol>
+<li><strong>ubantu系统 下载</strong><a href="https://github.com/gohugoio/hugo/releases">Hugo官方下载</a></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 下载压缩包</span>
+wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz
+
+
+<span style="color:#75715e"># 解压</span>
+tar -xzvf hugo_0.81.0_Linux-64bit.tar.gz 
+sudo cp ./hugo /usr/local/bin
+</code></pre></div><ol start="2">
+<li><strong>检查是否安装成功</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo version
+</code></pre></div><ol start="3">
+<li><strong>创建blog站点</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new  site myblog 
+<span style="color:#75715e">#myblog是项目名</span>
+</code></pre></div><ol start="4">
+<li><strong>myblog下的目录如下</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">myblog
+├── archetypes
+│   └── default.md
+├── assets
+├── config.toml   <span style="color:#75715e"># 博客站点的配置文件</span>
+├── content	      <span style="color:#75715e"># 博客文章所在的目录	</span>
+├── data
+├── layouts		  <span style="color:#75715e"># 网站布局</span>
+├── public		  
+├── static		  <span style="color:#75715e"># 一些静态内容</span>
+└── themes		  <span style="color:#75715e"># 博客主题</span>
+
+</code></pre></div><ol start="5">
+<li><strong>安装主题</strong></li>
+</ol>
+<blockquote>
+<p>官方主题下载：<a href="https://themes.gohugo.io/">hugo主题</a></p>
+</blockquote>
+<p>在myblog目录，将要下载的主题克隆到<strong>themes</strong>目录下</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 切到自己的站点</span>
+cd myblog 
+<span style="color:#75715e"># 初始化git</span>
+git  init
+<span style="color:#75715e"># clone 到themes/stack下，stack是 为主题hugo-theme-stack起的名称</span>
+git clone https://github.com/CaiJimmy/hugo-theme-stack.git   ./themes/stack
+git clone https://github.com/CaiJimmy/hugo-theme-stack.git   themes/stack
+
+
+</code></pre></div><ol start="6">
+<li><strong>将主题配置到配置文件中</strong></li>
+</ol>
+<pre tabindex="0"><code>echo 'theme=&quot;book&quot; '&gt;&gt; config.toml
+
+# 或者直接在config.toml下加入  theme=&quot;stack“
+
+</code></pre><ol start="7">
+<li><strong>新建文章</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">hugo new post<span style="color:#f92672">/</span>blog.md
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">#blog.md内容
+title: &#34;Blog&#34;
+date: 2022-12-07T23:23:48+08:00
+draft: true
+
+</code></pre></div><blockquote>
+<p>生成的 <code>md</code> 文件在<code>myblog/context/post</code>目录下</p>
+</blockquote>
+<ol start="8">
+<li><strong>启用hugo服务器</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server 
+
+<span style="color:#75715e"># 选项</span>
+-t  选定的主题  <span style="color:#75715e"># 指定主题  </span>
+
+</code></pre></div><p>启用草稿的情况下，启用服务器要使用以下命令：</p>
+<pre tabindex="0"><code>hugo server -D
+</code></pre><ol start="9">
+<li><strong>写一篇文章</strong></li>
+</ol>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){if(window.getSelection().toString())return;a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
